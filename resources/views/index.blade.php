@@ -44,7 +44,7 @@
                     <div class="card-img"><img src="{{ URL::asset('images/contapharm/contapharm-logo.png') }}" class="card-img-top"></div>
                     <div class="card-block">
                         <h4 class="card-title">Laboratoires CONTAPHARM</h4>
-                        <p class="card-text">One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.</p>
+                        <p class="card-text">Laboratoires CONTAPHARM develops parapharmaceutical products especially designed for contact lens wearers and for people with sensitive eyes and skin.</p>
                         <div class="card-btn"><a href="{{ url('/products/contapharm') }}" class="btn btn-primary">MORE</a></div>
                     </div>
                 </div>
