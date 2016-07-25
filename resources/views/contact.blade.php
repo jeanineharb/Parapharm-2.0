@@ -54,13 +54,20 @@
 	</div>
 </section>
 
-<section class="mbr-section mbr-section-md-padding mbr-parallax-background" id="social-buttons2-16" style="background-image: url(assets/images/parapharm-2000x1537-3.jpg); padding-top: 90px; padding-bottom: 90px;">
+<section class="mbr-section mbr-section-md-padding mbr-parallax-background" id="social-buttons2-16" style='padding-top: 90px; padding-bottom: 90px; background-image: url("{{ asset('images/parapharm.jpg') }}")'>
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-xs-center">
+			<div class="col-md-8 col-md-offset-2 text-xs-center" style="background-color: #ffffff; opacity: 0.7; padding: 15px;">
 				<h3 class="mbr-section-title display-2">FOLLOW US</h3>
-				<div><a class="btn btn-social" title="Twitter" target="_blank" href="https://twitter.com/mobirise"><i class="socicon socicon-twitter"></i></a> <a class="btn btn-social" title="Facebook" target="_blank" href="https://www.facebook.com/pages/Mobirise/1616226671953247"><i class="socicon socicon-facebook"></i></a> <a class="btn btn-social" title="Google+" target="_blank" href="https://plus.google.com/u/0/+Mobirise/posts"><i class="socicon socicon-google"></i></a> <a class="btn btn-social" title="YouTube" target="_blank" href="https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw"><i class="socicon socicon-youtube"></i></a> <a class="btn btn-social" title="Instagram" target="_blank" href="https://instagram.com/mobirise/"><i class="socicon socicon-instagram"></i></a> <a class="btn btn-social" title="Pinterest" target="_blank" href="https://www.pinterest.com/mobirise/"><i class="socicon socicon-pinterest"></i></a>  <a class="btn btn-social" title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/mobirise"><i class="socicon socicon-linkedin"></i></a>   </div>
+				<div>
+					<!-- <a class="btn btn-social" title="Instagram" target="_blank" href="https://instagram.com/mobirise/"><i class="socicon socicon-instagram"></i></a>  -->
+					<!-- <a class="btn btn-social" title="Twitter" target="_blank" href="https://twitter.com/mobirise"><i class="socicon socicon-twitter"></i></a>  -->
+					<!-- <a class="btn btn-social" title="Pinterest" target="_blank" href="https://www.pinterest.com/mobirise/"><i class="socicon socicon-pinterest"></i></a> -->
+					<a class="btn btn-social" title="Facebook" target="_blank" href="https://www.facebook.com/Parapharm"><i class="socicon socicon-facebook"></i></a> 
+					<a class="btn btn-social" title="LinkedIn" target="_blank" href="https://www.linkedin.com/company/parapharm-s-a-l"><i class="socicon socicon-linkedin"></i></a>
+					<a class="btn btn-social" title="WordPress" target="_blank" href="https://blog.parapharm.com.lb"><i class="socicon socicon-wordpress"></i></a>   
+				</div>
 			</div>
 		</div>
 	</div>
@@ -70,7 +77,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<div class="mbr-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0Dx_boXQiwvdz8sJHoYeZNVTdoWONYkU&amp;q=place_id:ChIJtcaxrqlZwokRfwmmibzPsTU" allowfullscreen=""></iframe></div>
+				<div class="mbr-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2736.8257836675284!2d35.54157531521007!3d33.858895980659014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5c5c0b669f7205be!2sPARAPHARM+SAL!5e1!3m2!1sen!2slb!4v1469468448570" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 			</div>
 		</div>
 	</div>
