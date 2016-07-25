@@ -23,3 +23,21 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/products/noreva', function () {
+    return view('products.noreva');
+});
+
+Route::get('/products/contapharm', function () {
+    return view('products.contapharm');
+});
+
+Route::get('/products/beautymed', function () {
+    return view('products.beautymed');
+});
+
+Route::get('/products/onagrine', function () {
+    return view('products.onagrine');
+});
+
+Route::post('contact_request','ContactController@getContactUsForm');
