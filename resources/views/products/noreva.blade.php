@@ -33,8 +33,6 @@
     </div>
 </section>
 
- 
-
 <section class="mbr-gallery mbr-section mbr-section-nopadding" id="gallery1-22" style="background-color: rgb(239, 239, 239); padding-top: 0px; padding-bottom: 0px;">
     <!-- Gallery -->
     <div>
@@ -170,7 +168,6 @@
                 <li> 2011: Noveane </li>
             </ul>
             </div>
-            
         </div>
     </div>
 
