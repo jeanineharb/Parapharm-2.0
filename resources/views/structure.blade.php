@@ -5,10 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="Parapharm is a Lebanese distributor for dermatological and skincare products.">
+	<meta name="keywords" content="Parapharm, Lebanon, Lebanese, distributor, parapharmacy, parapharmaceutical products, noreva, led, eye care, cosmetics, dermatology, dermatological, beautymed, contapharm, pharmasouples, supplier, fournisseur, dermatologique, soin, skincare, peau, pharmaceutique, parafarm, distributeur, liban, laboratoire" />
+	<meta name="author" content="Parapharm SAL" />
+	<meta name="designer" content="Jeanine Harb" />	
 	
-	<!-- <link rel="shortcut icon" href="{{ URL::asset('img/favicon.ico') }}"> -->
+	<link rel="shortcut icon" href="{{ URL::asset('images/favicon.ico') }}">
 	
 	<title>Parapharm SAL</title>
 	
@@ -39,7 +41,7 @@
 				<div class="mbr-table">
 					<div class="mbr-table-cell">
 						<div class="navbar-brand">
-							<a href="{{ url('/') }}" class="navbar-logo"><img src="{{ URL::asset('images/logo-192x128-95.png') }}" alt="Parapharm SAL" title="Parapharm SAL"></a>
+							<a href="{{ url('/') }}" class="navbar-logo"><img src="{{ URL::asset('images/logo1.png') }}" alt="Parapharm SAL" title="Parapharm SAL"></a>
 						</div>
 					</div>
 					<div class="mbr-table-cell">
@@ -62,9 +64,11 @@
 							<li class="nav-item"><a class="nav-link link" href="{{ url('/contact') }}">CONTACT</a></li>
 							<li class="nav-item"><a class="nav-link link" href="https://blog.parapharm.com.lb" target="_blank">BLOG</a></li>
 						</ul>
+
 						<button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
 							☰
 						</button>
+
 						</div>
 					</div>
 				</div>
@@ -78,23 +82,23 @@
 			<div class="container">
 				<div class="row">
 					<div class="mbr-footer-content col-xs-12 col-md-3">
-						<div><img src="assets/images/logo.png"></div>
+						<div><img src="{{ URL::asset('images/logo1.png') }}" style="max-height: 100px;"></div>
 					</div>
-					<div class="mbr-footer-content col-xs-12 col-md-3">
-						<p><strong>Address</strong><br>
+					<div class="mbr-footer-content col-xs-12 col-md-3" >
+						<p style="margin-left: 5%;"><strong>Address</strong><br>
 							Parapharm Bldg <br>
 							Libyan Embassy Street <br>
 							Mar Takla, Hazmieh - Lebanon<br>
 							P.O.Box: 77 Hazmieh, Lebanon</p>
 						</div>
 						<div class="mbr-footer-content col-xs-12 col-md-3">
-							<p><strong>Contact</strong><br>
+							<p style="margin-left: 5%;"><strong>Contact</strong><br>
 								Email: contact@parapharm.com.lb<br>
 								Phone: +961 5 454 111 / 333 <br>
 								Fax: +961 5 457 707</p>
 							</div>
 							<div class="mbr-footer-content col-xs-12 col-md-3">
-								<p><strong>Follow Us</strong><br>
+								<p style="margin-left: 5%;"><strong>Follow Us</strong><br>
 									<a class="nav-link link" href="https://www.facebook.com/Parapharm" target="_blank" aria-expanded="false"><span class="socicon socicon-facebook mbr-iconfont mbr-iconfont-btn"></span></a>
 									<a class="nav-link link" href="https://www.linkedin.com/company/parapharm-s-a-l" target="_blank" aria-expanded="false"><span class="socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn"></span></a>
 									<a class="nav-link link" href="https://blog.parapharm.com.lb" target="_blank" aria-expanded="false"><span class="socicon socicon-wordpress mbr-iconfont mbr-iconfont-btn"></span></a>
@@ -113,7 +117,6 @@
 						</div>
 					</footer>
 
-
 					<script src="{{ URL::asset('web/assets/jquery/jquery.min.js') }}"></script>
 					<script src="{{ URL::asset('tether/tether.min.js') }}"></script>
 					<script src="{{ URL::asset('bootstrap/js/bootstrap.min.js') }}"></script>
@@ -122,7 +125,10 @@
 					<script src="{{ URL::asset('jarallax/jarallax.js') }}"></script>
 					<script src="{{ URL::asset('dropdown/js/script.min.js') }}"></script>
 					<script src="{{ URL::asset('theme/js/script.js') }}"></script>
-
+					<script src="{{ URL::asset('masonry/masonry.pkgd.min.js') }}"></script>
+					<script src="{{ URL::asset('imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+					<script src="{{ URL::asset('bootstrap-carousel-swipe/bootstrap-carousel-swipe.js') }}"></script>
+					<script src="{{ URL::asset('mobirise-gallery/script.js') }}"></script>
 
 					<input name="animation" type="hidden">
 				</body>
