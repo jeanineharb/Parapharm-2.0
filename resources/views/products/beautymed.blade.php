@@ -158,7 +158,7 @@
                     <li> Vitamin Essentials</li>
                     <li> Skin Fusion </li>
             </ul>
-            <p style="margin-bottom: 1rem;"> For more information, visit <a href="http://www.beautymed.com/" target="_blank"> BeautyMed's website </a>. </p>
+            <p style="margin-bottom: 1rem;"> For more information, visit <a href="http://www.beautymed.com/" target="_blank"> BeautyMed's website</a>. </p>
         </div>
 
         <div class="col-xs-12 col-md-6 lead">
