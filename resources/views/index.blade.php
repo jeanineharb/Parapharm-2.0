@@ -56,7 +56,7 @@
                     <div class="card-img"><img src="{{ URL::asset('images/beautymed/beautymed-logo.png') }}" class="card-img-top"></div>
                     <div class="card-block">
                         <h4 class="card-title">BeautyMed</h4>
-                        <p class="card-text">Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.</p>
+                        <p class="card-text"> Newly introduced and distributed on the Lebanese market by Parapharm SAL, BeautyMed is a professional, innovative and high-tech line of products, formulated with the safest European standards. </p>
                         <div class="card-btn"><a href="{{ url('/products/beautymed') }}" class="btn btn-primary">MORE</a></div>
                     </div>
                 </div>
