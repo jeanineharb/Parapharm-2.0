@@ -68,7 +68,7 @@
                     <div class="card-img"><img src="{{ URL::asset('images/onagrine/onagrine-logo.png') }}" class="card-img-top"></div>
                     <div class="card-block">
                         <h4 class="card-title">Onagrine</h4>
-                        <p class="card-text">Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>
+                        <p class="card-text">For over 30 years, Onagrine has been creating exceptional skincare products that are natural, effective and enjoyable to use. It is Parapharm SAL's newest product on the Lebanese market. </p>
                         <div class="card-btn"><a href="{{ url('/products/onagrine') }}" class="btn btn-primary">MORE</a></div>
                     </div>
                 </div>
