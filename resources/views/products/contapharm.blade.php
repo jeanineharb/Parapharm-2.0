@@ -45,7 +45,7 @@
                         <a href="#lb-gallery1-22" data-slide-to="0" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/contapharm/catalogue-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title">EYE CARE Cosmetics: Make-up and care products for sensitive eyes and skin.</span>
+                            <span class="mbr-gallery-title">EYE CARE Cosmetics: make-up and care products for sensitive eyes and skin.</span>
                         </a>
                     </div><div class="mbr-gallery-item">
                         <a href="#lb-gallery1-22" data-slide-to="1" data-toggle="modal">
@@ -69,25 +69,25 @@
                         <a href="#lb-gallery1-22" data-slide-to="4" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/contapharm/eyeliner-feutre-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title">Automatic Eyeliners: Longwear and buildable. </span>
+                            <span class="mbr-gallery-title">Automatic Eyeliners: longwear and buildable. </span>
                         </a>
                     </div><div class="mbr-gallery-item">
                         <a href="#lb-gallery1-22" data-slide-to="5" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/contapharm/lipgloss-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title">Lipgloss: High tolerance, formulated without fragrance, allergens, carmine or lanolin. </span>
+                            <span class="mbr-gallery-title">Lipgloss: high tolerance, formulated without fragrance, allergens, carmine or lanolin. </span>
                         </a>
                     </div><div class="mbr-gallery-item">
                         <a href="#lb-gallery1-22" data-slide-to="6" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/contapharm/vernis-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title">Perfection Oligo+ Nail Enamel: Stimulates growth and hardens the nail.</span>
+                            <span class="mbr-gallery-title">Perfection Oligo+ Nail Enamel: stimulates growth and hardens the nail.</span>
                         </a>
                     </div><div class="mbr-gallery-item">
                         <a href="#lb-gallery1-22" data-slide-to="7" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/contapharm/pharmasouples-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title">PHARMASOUPLES Contact Lens Care: All-in-one hypoallergenic solution. </span>
+                            <span class="mbr-gallery-title">PHARMASOUPLES Contact Lens Care: all-in-one hypoallergenic solution. </span>
                         </a>
                     </div>
                 </div>

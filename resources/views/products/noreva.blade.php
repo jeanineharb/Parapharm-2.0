@@ -79,7 +79,7 @@
                         <a href="#lb-gallery1-22" data-slide-to="6" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/noreva/trio-white-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title">Trio White: Depigmenting products that brightens complexion.</span>
+                            <span class="mbr-gallery-title">Trio White: depigmenting products that brightens complexion.</span>
                         </a>
                     </div><div class="mbr-gallery-item">
                         <a href="#lb-gallery1-22" data-slide-to="7" data-toggle="modal">
