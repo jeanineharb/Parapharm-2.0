@@ -13,7 +13,7 @@
                 <div class="mbr-section col-md-10 col-md-offset-1 text-xs-center">
                 <div style="background-color: #ffffff; opacity: 0.7; padding: 15px;">
                     <h1 class="mbr-section-title display-1" style="color: black;">PARAPHARM SAL</h1>
-                    <p class="mbr-section-lead lead" style="margin: 0;">Exclusive agents and distributors for dermatological and pharmaceutical products.<br> <br>Having amassed more than three decades of expertise so far, we are known for providing the Lebanese market with the best brands in dermatology and skincare innovations, and for giving our partners a tailor-made coverage and representation in Lebanon.</p>
+                    <p class="mbr-section-lead lead" style="margin: 0;">Exclusive agents and distributors for dermatological and skincare products.<br> <br>Having amassed more than three decades of expertise so far, we are known for providing the Lebanese market with the best brands in dermatology and skincare innovations, and for giving our partners a tailor-made coverage and representation in Lebanon.</p>
                 </div>
                 </div>
             </div>
