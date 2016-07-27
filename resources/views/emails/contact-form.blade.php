@@ -10,7 +10,7 @@
 
 <p> <b>Name:</b> {{ $data['name'] }} </p>
 <p> <b>Email:</b> {{ $data['email'] }} </p>
-<p> <b>Date:</b> {{ Carbon\Carbon::now() }} </p>
+<p> <b>Date:</b> {{ Carbon\Carbon::now()->toRssString() }} </p>
 <p> <b>Message:</b> <br> {{ $data['message'] }} </p>
 
 </body>
