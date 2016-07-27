@@ -16,7 +16,7 @@ class ContactController extends Controller {
 		$rules = array (
             'name' => 'required', 
             'email' => 'required|email',  
-			'message' => 'required|min:5|max:1000'
+			'message' => 'required|min:5|max:1000',
 			'recaptcha_response_field' => 'required|recaptcha'
 			);
 
