@@ -20,9 +20,9 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/contact', function () {
+Route::get('/contact', ['as' => 'contact', function () {
     return view('contact');
-});
+}]);
 
 Route::get('/products/noreva', function () {
     return view('products.noreva');
