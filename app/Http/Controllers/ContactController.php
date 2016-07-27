@@ -17,7 +17,7 @@ class ContactController extends Controller {
             'name' => 'required', 
             'email' => 'required|email',  
 			'message' => 'required|min:5|max:1000',
-			'recaptcha_response_field' => 'required|recaptcha'
+			'g-recaptcha-response' => 'required|recaptcha'
 			);
 
         //Validate data
