@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="mbr-section mbr-section__container mbr-after-navbar mbr-section__container--isolated" id="header3-19" style="padding-bottom: 20px;">
+<section class="mbr-section mbr-section__container mbr-after-navbar mbr-section__container--isolated" id="header3-19" style="padding-top: 120px; padding-bottom: 20px;">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">

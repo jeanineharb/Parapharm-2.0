@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="mbr-section mbr-after-navbar" id="msg-box5-32" style="background-color: rgb(255, 255, 255); padding-bottom: 0px;">
+<section class="mbr-section mbr-after-navbar" id="msg-box5-32" style="background-color: rgb(255, 255, 255); padding-top: 120px; padding-bottom: 0px;">
     <div class="container">
         <div class="row">
             <div class="mbr-table-md-up">
