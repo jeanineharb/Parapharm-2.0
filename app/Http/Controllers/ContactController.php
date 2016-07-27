@@ -31,7 +31,7 @@ class ContactController extends Controller {
 				$message
 					->from($data['email'] , $data['name'])
 					->replyTo($data['email'] , $data['name'])
-					->to('jeanine.harb@gmail.com', 'Parapharm SAL')
+					->to('contact-form@parapharm.com.lb', 'Parapharm SAL')
 					->subject('Contact Form - You\'ve Got Mail!');
 			});
 
@@ -42,7 +42,7 @@ class ContactController extends Controller {
 					->from('contact@parapharm.com.lb' , 'Parapharm SAL')
 					->replyTo('contact@parapharm.com.lb' , 'Parapharm SAL')
 					->to($data['email'], $data['name'])
-					->bcc('jeanine.harb@net.usj.edu.lb')
+					->bcc('contact-form@parapharm.com.lb')
 					->subject('We\'ve successfully received your message!');
 			});
             // Redirect to page
