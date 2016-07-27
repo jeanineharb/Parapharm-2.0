@@ -32,6 +32,16 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900">
+
+	<!-- Start of StatCounter Code for Default Guide -->
+		<script type="text/javascript">
+			var sc_project=7422351; 
+			var sc_invisible=1; 
+			var sc_security="1867f062"; 
+		</script>
+		<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+		<noscript><div class="statcounter"><a title="web stats" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="http://c.statcounter.com/7422351/0/1867f062/1/" alt="web stats"></a></div></noscript>
+		<!-- End of StatCounter Code for Default Guide -->
 </head>
 
 <body>
