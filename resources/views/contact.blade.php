@@ -2,7 +2,6 @@
 
 @section('content')
 
-
 <section class="mbr-section mbr-after-navbar" id="form1-17" style="background-color: rgb(255, 255, 255); padding-top: 120px; padding-bottom: 120px;">
 
 	<div class="mbr-section mbr-section__container mbr-section__container--middle">
@@ -19,34 +18,39 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-lg-10 col-lg-offset-1">
-
-					<!-- <div data-form-alert="true">
-						<div hidden="" data-form-alert-success="true" class="alert alert-form alert-success text-xs-center">Thanks for filling out form!</div>
-					</div> -->
-
 					{{ Form:: open(array('action' => 'ContactController@getContactUsForm')) }} 
 
-					<ul class="errors">
-						@foreach($errors->all('<li>:message</li>') as $message)
-						{{ $message }}
-						@endforeach
-					</ul>
+					@if (session('error'))
+						<div class="alert alert-form alert-danger text-xs-center">
+        					{{ session('error') }}
+    					</div>
+					@endif
+
+					@if (session('success'))
+						<div class="alert alert-form alert-success text-xs-center">
+        					{{ session('success') }}
+    					</div>
+					@endif
 
 					<div class="form-group">
 						{{ Form::text('name', '', array('required', 'id' => 'name', 'class' => 'form-control', 'placeholder' => 'Your name')) }}
 					</div>
 
 					<div class="form-group">
-						{{ Form::text('email', '', array('required', 'id' => 'email', 'class' => 'form-control', 'placeholder'=>'Your e-mail address')) }}
+						{{ Form::text('email', '', array('required', 'id' => 'email', 'class' => 'form-control', 'placeholder' => 'Your e-mail address')) }}
 					</div>
 
 					<div class="form-group">
-						{{ Form:: textarea ('message', '', array('placeholder' => 'Your message', 'class' => 'form-control', 'id' => 'message', 'rows' => '4' )) }}
+						{{ Form::textarea ('message', '', array('placeholder' => 'Your message', 'class' => 'form-control', 'id' => 'message', 'rows' => '4' )) }}
+					</div>
+
+					<div class="form-group">
+						{!! Recaptcha::render() !!}
 					</div>
 
 					<div class="modal-footer">
 						{{ Form::submit('Submit', array('class' => 'btn btn-primary')) }}
-						{{ Form:: close() }}
+						{{ Form::close() }}
 					</div>
 				</div>
 			</div>
@@ -61,9 +65,6 @@
 			<div class="col-md-8 col-md-offset-2 text-xs-center" style="background-color: #ffffff; opacity: 0.7; padding: 15px;">
 				<h3 class="mbr-section-title display-2">FOLLOW US</h3>
 				<div>
-					<!-- <a class="btn btn-social" title="Instagram" target="_blank" href="https://instagram.com/mobirise/"><i class="socicon socicon-instagram"></i></a>  -->
-					<!-- <a class="btn btn-social" title="Twitter" target="_blank" href="https://twitter.com/mobirise"><i class="socicon socicon-twitter"></i></a>  -->
-					<!-- <a class="btn btn-social" title="Pinterest" target="_blank" href="https://www.pinterest.com/mobirise/"><i class="socicon socicon-pinterest"></i></a> -->
 					<a class="btn btn-social" title="Facebook" target="_blank" href="https://www.facebook.com/Parapharm"><i class="socicon socicon-facebook"></i></a> 
 					<a class="btn btn-social" title="LinkedIn" target="_blank" href="https://www.linkedin.com/company/parapharm-s-a-l"><i class="socicon socicon-linkedin"></i></a>
 					<a class="btn btn-social" title="WordPress" target="_blank" href="https://blog.parapharm.com.lb"><i class="socicon socicon-wordpress"></i></a>   
