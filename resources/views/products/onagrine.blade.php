@@ -43,49 +43,49 @@
                         <a href="#lb-gallery1-22" data-slide-to="0" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/onagrine/global-expertise-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title">Global Expertise Products.</span>
+                            <span class="mbr-gallery-title"> Global Expertise: anti-aging multi correction range for a flawless complexion. </span>
                         </a>
                     </div><div class="mbr-gallery-item">
                         <a href="#lb-gallery1-22" data-slide-to="1" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/onagrine/huile-native-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title">Huile Native.</span>
+                            <span class="mbr-gallery-title"> Huile Native: natural essential oils for silky skin and hair. </span>
                         </a>
                     </div><div class="mbr-gallery-item">
                         <a href="#lb-gallery1-22" data-slide-to="2" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/onagrine/onahydratant-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title">Onahydratant Products. </span>
+                            <span class="mbr-gallery-title"> Onahydratant: a complete range for a moisturized, nourished and protected skin. </span>
                         </a>
                     </div><div class="mbr-gallery-item">
                         <a href="#lb-gallery1-22" data-slide-to="3" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/onagrine/dna-detox-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title"> DNA Detox Products.</span>
+                            <span class="mbr-gallery-title"> DNA Detox: energizing and protecting range of products for the active woman.</span>
                         </a>
                     </div><div class="mbr-gallery-item">
                         <a href="#lb-gallery1-22" data-slide-to="4" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/onagrine/extreme-jeunesse-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title"> Extreme Jeunesse Products. </span>
+                            <span class="mbr-gallery-title"> Extreme Jeunesse: targets fine wrinkles for a lasting younger complexion. </span>
                         </a>
                     </div><div class="mbr-gallery-item">
                         <a href="#lb-gallery1-22" data-slide-to="5" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/onagrine/soins-hygiene-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title"> Soins Hygiene Products. </span>
+                            <span class="mbr-gallery-title"> Soins Hygiene: a complete natural range for spotless face and body. </span>
                         </a>
                     </div><div class="mbr-gallery-item">
                         <a href="#lb-gallery1-22" data-slide-to="6" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/onagrine/cc-creme-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title"> CC Creams. </span>
+                            <span class="mbr-gallery-title"> CC Creams: unify, moisturize and correct imperfections. </span>
                         </a>
                     </div><div class="mbr-gallery-item">
                         <a href="#lb-gallery1-22" data-slide-to="7" data-toggle="modal">
                             <img alt="" src="{{ URL::asset('images/onagrine/onaphyline-small.jpg') }}">
                             <span class="icon"></span>
-                            <span class="mbr-gallery-title"> Onaphyline Products. </span>
+                            <span class="mbr-gallery-title"> Onaphyline: anti-aging, anti-wrinkles and firmness care. </span>
                         </a>
                     </div>
                 </div>
