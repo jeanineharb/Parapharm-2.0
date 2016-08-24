@@ -7,7 +7,7 @@
         <div class="row">
             <div class="mbr-table-md-up">
               <div class="mbr-table-cell mbr-right-padding-md-up col-md-12 text-xs-center text-md-center">
-                  <h4 class="mbr-section-title display-2">We will be right back!</h4>
+                  <h4 class="mbr-section-title display-2">Sorry, the page you are looking for could not be found.</h4>
               </div>
             </div>
         </div>
