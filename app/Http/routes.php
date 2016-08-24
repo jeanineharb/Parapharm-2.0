@@ -11,33 +11,46 @@
 |
 */
 
+// ===============================================
+// STATIC PAGES ==================================
+// ===============================================
+
 Route::get('/', function () {
-    // return view('welcome');
-    return view('index');
+    return View::make('index');
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return View::make('about');
 });
 
 Route::get('/contact', ['as' => 'contact', function () {
-    return view('contact');
+    return View::make('contact');
 }]);
 
-Route::get('/products/noreva', function () {
-    return view('products.noreva');
-});
-
-Route::get('/products/contapharm', function () {
-    return view('products.contapharm');
-});
-
-Route::get('/products/beautymed', function () {
-    return view('products.beautymed');
-});
-
-Route::get('/products/onagrine', function () {
-    return view('products.onagrine');
-});
-
 Route::post('contact_request','ContactController@getContactUsForm');
+
+
+// ===============================================
+// PRODUCTS SECTION ==============================
+// ===============================================
+
+Route::group(array('prefix' => 'products'), function(){
+
+	Route::get('noreva', function () {
+	    return View::make('products.noreva');
+	});
+
+	Route::get('contapharm', function () {
+	    return View::make('products.contapharm');
+	});
+
+	Route::get('beautymed', function () {
+	    return View::make('products.beautymed');
+	});
+
+	Route::get('onagrine', function () {
+	    return View::make('products.onagrine');
+	});
+
+});
+
