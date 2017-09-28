@@ -364,31 +364,6 @@
 
     });
 
-
-    if (!$('html').hasClass('is-builder')){
-
-        $(document).ready(function() {
-
-            if ($('input[name=animation]').length) {
-
-                var animatedElements = $('p, h1, h2, h3, h4, h5, a, button, small, span, img, li, blockquote, .mbr-author-name, em, label, input, textarea, .input-group').not(function(){
-                    return $(this).parents().is('.navbar, .mbr-arrow, .carousel-control, .container-slide, .carousel-item, footer');
-                });
-                console.log(animatedElements);
-
-                animatedElements.addClass("hidden").viewportChecker({
-                    classToRemove: 'hidden',
-                    classToAddForFullView: '',
-                    classToAdd: 'visible animated fadeInUp',
-                    offset: 100,
-                    removeClassAfterAnimation: true
-                });
-
-                $('input[name=animation]').remove();
-            }
-
-        });
-
     }
 
 })(jQuery);
